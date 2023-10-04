@@ -25,4 +25,4 @@ Note that the folder and file names appear in the url.
 
 ## Building for the Web
 
-When you push to main, a GitHub Actions build kicks off.
+When you push to main, a GitHub Actions build kicks off. Go to [here](https://panevain.github.io/CS5744_TransitFlow/) to view the site

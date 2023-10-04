@@ -7,3 +7,5 @@ weight=1
 
 Markdown does here! See `content/introduction/_index.md`.
 
+This is a website by Matthew Averyt, Andrew Ferrin, Matthew Harrington, and Matthew Newcomer for CS 5744: Software Design and Quality.
+
