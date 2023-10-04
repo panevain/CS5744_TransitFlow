@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://example.com"
+base_url = "https://panevain.github.io/CS5744_TransitFlow/"
 compile_sass = true
 build_search_index = false
 theme = "book"
