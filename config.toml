@@ -3,6 +3,7 @@ base_url = "https://panevain.github.io/CS5744_TransitFlow/"
 compile_sass = true
 build_search_index = false
 theme = "book"
+title = "CS 5744 Project 1"
 
 [markdown]
 highlight_code = true
