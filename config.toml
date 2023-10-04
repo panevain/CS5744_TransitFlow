@@ -1,0 +1,12 @@
+# The URL the site will be built for
+base_url = "https://example.com"
+compile_sass = true
+build_search_index = false
+theme = "book"
+
+[markdown]
+highlight_code = true
+highlight_theme = "solarized-light"
+
+[extra]
+# Put all your custom variables here
