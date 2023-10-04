@@ -22,3 +22,7 @@ The [book theme](https://www.getzola.org/themes/book/) goes on to explain four k
 4. The front matter of each page must contain `weight=n`, where `n` is the page number.
 
 Note that the folder and file names appear in the url.
+
+## Building for the Web
+
+When you push to main, a GitHub Actions build kicks off.
