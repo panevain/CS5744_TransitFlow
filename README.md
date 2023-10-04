@@ -4,7 +4,7 @@ This repository contains a zola project which generates HTML for Project 1.
 
 ## Setup
 
-This set of instructions assumes that you have `git` and `zola` ([link](https://getzola.org)) installed.
+This set of instructions assumes that you have `git` and `zola` ([link](https://www.getzola.org)) installed.
 
 ```bash
 git clone git@github.com:panevain/CS5744_TransitFlow.git
