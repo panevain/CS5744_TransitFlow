@@ -4,10 +4,16 @@ compile_sass = true
 build_search_index = false
 theme = "book"
 title = "CS 5744 Project 1"
+minify_html = true
 
 [markdown]
+render_emoji = true
+smart_punctuation = true
+
+external_links_no_follow = true
+external_links_no_referrer = true
+
 highlight_code = true
-highlight_theme = "solarized-light"
+highlight_theme = "OneHalfLight"
 
 [extra]
-# Put all your custom variables here
