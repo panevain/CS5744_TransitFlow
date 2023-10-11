@@ -14,12 +14,5 @@ Created by:
 * Matthew Newcomer
 
 ```java
-public static void main(String[] args){
-    int x = 0;
-    for(int index = 0; index < 10; index++){
-        x *= 2;
-    }
-    // Why left shift when you can loop?
-    System.out.println(x);
-}
+among us
 ```

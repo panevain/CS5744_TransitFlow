@@ -1,0 +1,6 @@
+<figure>
+    <img alt="{{alt}}" src="{{src}}"/>
+    <figcaption>
+        {% if figure_number %}Figure {{figure_number}}:{% endif %}
+        {{caption}}{% if citation_number %}<sup class="footnote-definition"><a href="#{{citation_number}}">{{citation_number}}</a></sup>{% endif %}</figcaption>
+</figure>
