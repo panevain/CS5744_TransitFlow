@@ -1,3 +1,16 @@
-figcaption{
-    text-align: center;
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Attempt at responsive design where narrow images are allowed to go full-width on small screens*/
+.page .narrow-image {
+    max-width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .page .narrow-image {
+        max-width: 100%;
+    }
 }
