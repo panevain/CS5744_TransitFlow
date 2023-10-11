@@ -12,7 +12,3 @@ Created by:
 * Andrew Ferrin
 * Matthew Harrington
 * Matthew Newcomer
-
-```java
-among us
-```
