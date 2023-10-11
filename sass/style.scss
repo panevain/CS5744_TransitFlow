@@ -4,6 +4,10 @@ figure {
     align-items: center;
 }
 
+.title-text{
+    padding-left: 15px;
+}
+
 /* Attempt at responsive design where narrow images are allowed to go full-width on small screens*/
 .page .narrow-image {
     max-width: 50%;

@@ -5,7 +5,7 @@ sort_by = "weight"
 weight = 1
 +++
 
-The Town of Blacksburg, Virginia is the home of Virginia Tech and its more than 37,000 students[^1]. Blacksburg's road and parking infrastructure is not designed to handle massive numbers of students driving to and from campus each school day. Simulatenously, many students may not own a car for personal or financial reasons. To make the area more accessible to all, the Town of Blacksburg offers daily bus service via Blacksburg Transit (BT), a system that connects student housing to the Virginia Tech campus and popular destinations in Blacksburg and Christiansburg. During a typical month when school is in session, BT can serve approximately 400,000 riders across the entire network [^2].
+The Town of Blacksburg, Virginia is the home of Virginia Tech and its more than 37,000 students[^1]. Blacksburg's road and parking infrastructure is not designed to handle massive numbers of students driving to and from campus each school day. Simulatenously, many students may not own a car for personal or financial reasons. To make the area more accessible to all, the Town of Blacksburg offers daily bus service via Blacksburg Transit (BT), a system that connects student housing to the Virginia Tech campus and popular destinations in Blacksburg and Christiansburg. During a typical month when school is in session, BT can serve approximately 400,000 riders across the entire network[^2].
 
 {{ image(figure_number=1, 
 citation_number=3, 

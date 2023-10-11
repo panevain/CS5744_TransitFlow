@@ -1,0 +1,10 @@
+{% extends "book/templates/page.html" %}
+{% block prev_link %}
+{% if page.lower %}
+    <a class="previous" href="{{ page.lower.permalink | safe }}"><</a>
+{% else %}
+    {# No page before, find the link for the section it's in if there is one #}
+    {% set parent = get_section(path=page.ancestors | reverse | first) %}
+    <a class="previous" href="{{ parent.permalink | safe }}"><</a>
+{% endif %}
+{% endblock prev_link %}
