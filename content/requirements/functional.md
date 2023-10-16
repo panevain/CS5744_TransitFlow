@@ -8,20 +8,15 @@ weight = 3
 * **FR-1**: Users can view live bus locations on a map.
 * **FR-2**: Users can view live ridership information per bus.
 * **FR-3**: Users can receive route and detour information.
-* **FR-4**: Users can access historical bus and ridership information.
-* **FR-5**: Administrative users can enter, modify, and delete bus information.
-
-Users can R all routes on a map
-Users can R all routes in textual/list format
-Users can R a single route on a map
-Users can R buses that service a stop
-Users can R alerts
-Users can R bus ridership
-Users can R estimated route arrivals at a stop
-Admins can CRUD bus information (type, length, max capacity, number, etc.)
-Admins can CRUD route information and route stops
-Admins can CRUD alerts
-The system logs the bus' location and status into a centralized database
-Users can R all of the above via Web and Mobile
-Users can R routes at a stop via text
-Users can R estimated arrival times at a stop via text
+* **FR-4**: Users can select a route to view that route on the map, or view all of the routes on the map.
+* **FR-5**: Users can view a list all routes in text format.
+* **FR-6**: Users can view a list of all routes that service a stop.
+* **FR-7**: Users can view a list of all buses that service a particular stop and the estimated time that those buses will arrive at the stop.
+* **FR-8**: Users can view all alerts in the system.
+* **FR-9**: Users can do all of the above actions either through a web or mobile application.
+* **FR-10**: Users can accomplish **FR-6**, **FR-7**, and **FR-8** via text.
+* **FR-11**: Users can access historical bus and ridership information.
+* **FR-12**: Administrative users can enter, modify, and delete bus information.
+* **FR-13**: Administrative users can enter, modify, and delete route information and route stops.
+* **FR-14**: Administrative users can enter, modify, and delete alerts.
+* **FR-15**: The system logs all bus location and status information in a centralized database.
