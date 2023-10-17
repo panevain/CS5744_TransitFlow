@@ -13,6 +13,10 @@ figure {
     max-width: 50%;
 }
 
+.page table {
+    margin: 0;
+}
+
 @media only screen and (max-width: 600px) {
     .page .narrow-image {
         max-width: 100%;

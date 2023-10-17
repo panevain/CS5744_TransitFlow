@@ -21,7 +21,9 @@ src="./bt_map_failure.png",
 alt="Blacksburg Transit iOS app showing black buses on an unloaded map"
 narrow_image=true)}}
 
-Each BT bus is equipped with a GPS transponder that provides each bus' location and status information. Each user, via website of mobile app, receives packets of JSON data which are displayed in tabular or graphical form. The system which exists between the buses supplying data and users consuming data is currently not able to handle the load and must, therefore, be redesigned to support users. TransitFlow is the replacement system which communicates with both parties. TransitFlow aims to solve these functionality problems while also providing new features to riders. The remainder of this website explains its goals, requirements, design and rationale in detail.
+Each BT bus is equipped with a GPS and cellular transponder that provides each bus' location and status information. Each user, via website of mobile app, receives packets of JSON data which are displayed in tabular or graphical form. The system which exists between the buses supplying data and users consuming data is currently not able to handle the load and must, therefore, be redesigned to support users. TransitFlow is the replacement system which communicates with both parties. TransitFlow aims to solve these functionality problems while also providing new features to riders. The Town of Blacksburg, and more specifically Blacksburg Transit, are the customers for TransitFlow. The citizens of Blacksburg and Christiansburg as well as the Virginia Tech student body are the intended users of TransitFlow.
+
+The remainder of this website explains its goals, requirements, design and rationale in detail.
 
 [^1]: [VT University Data Commons](https://udc.vt.edu/irdata/data/students/enrollment/index) (Retrieved 11 October 2023)
 
