@@ -2,7 +2,7 @@
 title = "Top Level Architecture"
 
 sort_by = "weight"
-weight = 2
+weight = 1
 +++
 
 Present the **top-level architecture** in as much detail as is feasible.
