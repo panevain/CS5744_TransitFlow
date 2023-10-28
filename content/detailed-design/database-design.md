@@ -1,5 +1,5 @@
 +++
-title = "Database Design"
+title = "Database"
 
 sort_by = "weight"
 weight = 2

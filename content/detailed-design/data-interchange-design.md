@@ -1,5 +1,5 @@
 +++
-title = "Data Interchange Design"
+title = "Data Interchange"
 
 sort_by = "weight"
 weight = 3
