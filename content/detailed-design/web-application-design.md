@@ -123,7 +123,8 @@ the new bus, the dialog box will also provide the ability to upload the maintena
 #### Route Management
 
 Similarly to the bus management page, the route management page will consist of a table that displays all of
-the route information provided by the backend services. The table will be a paginated Angular Material table
+the route information provided by the backend services. This capability will be available at the `/manage/route`
+route, and will be protected using an Angular Routing Guard. The table will be a paginated Angular Material table
 that allows for sorting and filtering of the data. This table will also provide the functionality to click on
 a single row to view more detailed information. This will be accomplished by a dialog box that displays the
 information in a more readable format. As a part of this dialog box, there will be buttons that allow for the
@@ -152,6 +153,7 @@ be added at this point, or added later using the dialog box.
 
 In addition to the alert management capabilities provided by the route management page, the dedicated
 alert management page will provide the ability to view and manage all alerts that have been added to the system.
+This capability will be available at the `/manage/alert` route, and will be protected using an Angular Routing Guard.
 This page will consist of a table that displays all of the active and scheduled alerts for the entire system.
 The table will be a paginated Angular Material table that allows for sorting and filtering of the data.
 This filtering and sorting behavior will become extremely useful for administrators to rapidly manage alerts
@@ -173,3 +175,10 @@ but will not be visible to users until a route is specified.
 The alert management page will also provide a button that allows for the addition of a new alert.
 Upon clicking this button, a dialog box will be displayed that allows for the entry of the alert information
 in a very similar format to the individual alert information dialog box.
+
+#### Diagram
+
+{{ image(figure_number=1,
+caption="Diagram for the Administrative Web Application.",
+src="./diagram.svg",
+alt="Logical component diagram for the Administrative Web Application.")}}
