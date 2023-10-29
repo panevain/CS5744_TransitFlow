@@ -1,5 +1,5 @@
 +++
-title = "Component 2"
+title = "API"
 
 sort_by = "weight"
 weight = 2

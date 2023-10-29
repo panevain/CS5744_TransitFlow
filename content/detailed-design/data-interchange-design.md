@@ -1,8 +1,8 @@
 +++
-title = "Data Interchange Design"
+title = "Data Interchange"
 
 sort_by = "weight"
-weight = 3
+weight = 4
 +++
 
 The primary function of TransitFlow is to transfer data from data creators (buses) to data consumers (users on the app). Data in the TransitFlow system goes through a lifecycle that brings it through several different phases, beginning at the buses themselves and ending in long-term data storage servers. Between those stages, the data is sent from the buses to the central system to be stored in the live data cache, from which it can be retrieved by users through a variety of methods. Once the system receives new data from the bus, old data will be evicted from the cache and sent to long-term storage, where it will stay.
