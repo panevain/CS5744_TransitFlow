@@ -17,6 +17,10 @@ figure {
     margin: 0;
 }
 
+.page__content code{
+    display: inline;
+}
+
 @media only screen and (max-width: 600px) {
     .page .narrow-image {
         max-width: 100%;
