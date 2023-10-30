@@ -75,11 +75,30 @@ Not all of the API is accessible to every user. Only retrieval of records is ope
 
 The following list will contain some, but not necessarily all of, the API endpoints that TransitFlow provides. Some of these endpoints will only be accessible to those with administrator priveleges. 
 
-| API Endpoint | Description | Admin Only |
-|--------------|-------------|------------|
-| /user/buses  |  Retrieve a list of all buses in the system. | No |
-| /user/buses/current | Retrieve a list of all currently active buses. | No |
-| /user/routes | Retrieve a list of all routes in teh system. | No |
-| /user/routes/current | Retrieves a list of all routes currently being serviced. | No |
-| /user/routes/(route)/stops | Retrieves a list of stops for the provided route. | No |
-| /user/routes/(route)/timetable | Retrieves the most recently posted timetable for the provided route. | No |
+| HTTP Verb | API Endpoint                                  | Description                                                                       |
+|:---------:|-----------------------------------------------|-----------------------------------------------------------------------------------|
+|    GET    | /buses/all                                    | Retrieve a list of all buses in the system.                                       |
+|    GET    | /buses/active                                 | Retrieve a list of all currently active buses.                                    |
+|    POST   | /buses                                        | Creates a new bus. Credentials required.                                          |
+|    POST   | /buses/{id}                                   | Modifies an existing bus. Credentials required.                                   |
+|   DELETE  | /buses/{id}                                   | Deletes an existing bus. Credentials required.                                    |
+|    GET    | /routes                                       | Retrieves a list of all routes in the system.                                     |
+|    GET    | /routes/current                               | Retrieves a list of all routes currently being serviced.                          |
+|    POST   | /routes                                       | Creates a new route. Credentials required.                                        |
+|    POST   | /routes/{id}                                  | Modifies an existing route. Credentials required.                                 |
+|   DELETE  | /routes/{id}                                  | Deletes an existing route. Credentials required.                                  |
+|    GET    | /patterns/all                                 | Retrieves a list of all patterns in the system.                                   |
+|    GET    | /patterns/active                              | Retrieves a list of all patterns currently being serviced.                        |
+|    GET    | /patterns/{pattern}/positions                 | Retrieves a list of waypoints and stops for the provided pattern.                 |
+|    GET    | /patterns/{pattern}/positions/{id}/prediction | Retrieves the predicted arrival for buses on a given pattern for a specific stop. |
+|    POST   | /patterns                                     | Creates a new pattern. Credentials required.                                      |
+|    POST   | /patterns/{id}                                | Modifies an existing pattern. Credentials required.                               |
+|   DELETE  | /patterns/{id}                                | Deletes an existing pattern. Credentials required.                                |
+|    GET    | /trips/{pattern}                              | Retrieves the most recently posted timetable for the provided pattern.            |
+|    POST   | /trips                                        | Creates a new trip. Credentials required.                                         |
+|    POST   | /trips/{id}                                   | Modifies an existing trip. Credentials required.                                  |
+|   DELETE  | /trips/{id}                                   | Deletes an existing trip. Credentials required.                                   |
+|    GET    | /alerts                                       | Retrieves all active alerts for the network.                                      |
+|    POST   | /alerts                                       | Creates a new alert. Credentials required.                                        |
+|    POST   | /alerts/{id}                                  | Modifies an existing alert. Credentials required.                                 |
+|   DELETE  | /alerts/{id}                                  | Deletes an existing alert. Credentials required.                                  |
