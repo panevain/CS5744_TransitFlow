@@ -11,32 +11,17 @@ User interfaces are one of the most vital parts of a full stack application.
 They facilitate the interaction and communication between the user and the application.
 Because of this, it is important that the provided interface is clear and easy to use.
 Without a reliable, understandable, and powerful UI, the application's usefulness to standard users
-is limited by the ability to interact with it. Even if other portions of the application are
-well designed, performant, and satisfy all desired requirements, a poor UI can make those features
-difficult to interact with, and in some cases may eliminate their usefulness entirely. Additionally,
-it is important that a UI is adaptable to easily interface with other application services, even
-as those services change over the course of development and maintenance.
+is limited by the ability to interact with it.
 
-Because of this, the UI for the application will be built using the Angular framework. Angular
-is a powerful and extremely popular choice for building the frontend of web applications. It
-provides a diverse set of tools for building UIs, and has a large community of developers that
-provide maintenance, upgrades, and documentation for the framework.
+Even if other portions of the application are well designed, performant, and satisfy
+all desired requirements, a poor UI can make those features difficult to interact with,
+and in some cases may eliminate their usefulness entirely. Additionally, it is important
+that a UI is adaptable to easily interface with other application services, even as those
+services change over the course of development and maintenance.
 
-Angular is a component-based framework, which allows for the creation and use of reusable
-components that can be adjusted independently of each other - allowing for a modular application.
-Many commonly use components such as date pickers, dialog boxes, and layout components are already
-provided by libraries like Angular Material and can be seamlessly integrated into the application
-with minimal effort.
-
-Another benefit of Angular is that it supports the use of TypeScript which allows for the
-application to strongly type it's data as it is passed between components. This powerful feature
-improves the maintainability of the application and makes it easier for developers to find the source
-of bugs in the application.
-
-Angular also provides a feature called pipes, which allow for the transformation of data before it
-is rendered on a component's template. This allows for flexibility of the presentation of data
-regardless of how it was received or stored. This feature is especially useful for changes in the
-format of the data that may occur as the application is developed or maintained.
+Because of this, the UI for the application will be built using the Angular framework. See
+the [Web Application Design Rationale](@/design-rationale/web-application-rationale.md)
+for more information about the decision to use Angular.
 
 ### Design Description
 
