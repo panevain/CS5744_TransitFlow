@@ -13,7 +13,7 @@ Data begins life by being generated onboard one of the up to 24 buses that are i
 
 ## Data Processing
 
-Once data is received by TransitFlow, some processing must occur to standardize the data. BT's bus fleet is far from standardized, and very few of their buses were manufactured at the same time, resulting in buses that have wildly different methods by which they send the data they generate, and equally as different formats by which that data is organized[^1]. Because of this, some processing must occur once the data is received by TransitFlow before it can be sent to users. (PUT MORE ABOUT THIS LATER).
+Once data is received by TransitFlow, some processing must occur to standardize the data. BT's bus fleet is far from standardized, and very few of their buses were manufactured at the same time, resulting in buses that have different methods by which they send and organize data they generate[^1]. Because of this, some processing must occur once the data is received by TransitFlow before it can be sent to users. 
 
 ## Data Retrieval
 
