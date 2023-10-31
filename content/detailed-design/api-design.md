@@ -7,7 +7,7 @@ weight = 3
 
 ### REST API
 
-While it is functioning, TransitFlow is collecting massive amounts of data and storing it in long-term storage. The web and mobile applications will not have access to this data, but we want users to be able to get the data if possible, so we will provide a REST API that users can use to receive historical data. This API will be used by users to retrieve data stored in the database, but will also be used by admin users to set, update, and delete data from the database. This API will use the Data Access Object (DAO) pattern to function.
+While it is online, TransitFlow is collecting massive amounts of data and storing it in long-term storage. The web and mobile applications will not have access to this data, but we want users to be able to get the data if possible, so we will provide a REST API that users can use to receive historical data. This API will be used by users to retrieve data stored in the database, but will also be used by admin users to set, update, and delete data from the database. This API will use the Data Access Object (DAO) pattern to function.
 
 ### DAO Pattern
 
@@ -69,11 +69,11 @@ Deletion begins with the user sending a delete request to the API. The API then 
 
 ### API Access:
 
-Not all of the API is accessible to every user. Only retrieval of records is open to the public, since we do not wish to have regular users modifying the contents of the database. Creation, updating, and deletion of data is accessible only to admin users. 
+Not all of the API is accessible to every user. Only retrieval of records is open to the public, since we do not wish to have regular users modifying the contents of the database. Creating, updating, and deleting data is accessible only to admin users. 
 
 ### API Endpoints:
 
-The following list will contain some, but not necessarily all of, the API endpoints that TransitFlow provides. Some of these endpoints will only be accessible to those with administrator priveleges. 
+The following list will contain some, but not necessarily all of, the API endpoints that TransitFlow provides. Some of these endpoints will only be accessible to those with administrator privileges. 
 
 | HTTP Verb | API Endpoint                                  | Description                                                                       |
 |:---------:|-----------------------------------------------|-----------------------------------------------------------------------------------|

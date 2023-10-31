@@ -5,7 +5,7 @@ sort_by = "weight"
 weight = 1
 +++
 
-## Anna's Daily Commute to Campus with Blacksburg Transit
+## Anna's Daily Commute to Campus using Blacksburg Transit
 
 **Actor**: Anna, a third-year undergraduate student majoring in Biology at Virginia Tech
 

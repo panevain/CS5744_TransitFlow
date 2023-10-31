@@ -5,7 +5,7 @@ sort_by = "weight"
 weight = 1
 +++
 
-The primary function of TransitFlow is to transfer data from data creators (buses) to data consumers (users on the app). Data in the TransitFlow system goes through a lifecycle that brings it through several different phases, beginning at the buses themselves and ending in long-term data storage servers. Between those stages, the data is sent from the buses to the central system to be stored in the live data cache, from which it can be retrieved by users through a variety of methods. Once the system receives new data from the bus, old data will be evicted from the cache and sent to long-term storage, where it will stay.
+The primary function of TransitFlow is to transfer data from data creators (buses) to data consumers (users on any public interface). Data in the TransitFlow system goes through a lifecycle that brings it through several different phases, beginning at the buses themselves and ending in long-term data storage servers. Between those stages, the data is sent from the buses to the central system to be stored in the live data cache, from which it can be retrieved by users through a variety of methods. Once the system receives new data from the bus, old data will be evicted from the cache and sent to long-term storage, where it will stay.
 
 ## Data Creation
 
@@ -86,7 +86,7 @@ This version of the interchange format is currently supported by all public clie
 
 ### API Requests:
 
-TransitFlow will provide a REST API for users to be able to retrieve historical and current data about the BT system. This API will be publicly available, and will allow users to query the database to retrieve historical data about one or more bus, route, stop, or combination of the three. This data will be organized in a JSON object that will be sent to the user using HTTP, allowing the user to handle the data as they wish. The API will also provide a method by which users can pull the cache every 10 seconds to receive near real-time data.
+TransitFlow will provide a [REST API](@/detailed-design/api-design.md) for users to be able to retrieve historical and current data about the BT system. This API will be publicly available, and will allow users to query the database to retrieve historical data about one or more bus, route, stop, or combination of the three. This data will be organized in a JSON object that will be sent to the user using HTTP, allowing the user to handle the data as they wish. The API will also provide a method by which users can pull the cache every 10 seconds to receive near real-time data.
 
 ### Load Handling:
 

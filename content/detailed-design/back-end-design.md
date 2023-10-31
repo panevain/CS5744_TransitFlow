@@ -5,7 +5,7 @@ sort_by = "weight"
 weight = 2
 +++
 
-Server architectures are crucial in defining the efficiency, scalability, and reliability of web applications. The architecture for the proposed system is designed to handle requests efficiently, manage data securely, and provide a flexible structure for future expansion. The system's architecture is composed of several key components: Server, API, Cache, DatabaseConnection, ClientFormatter, and AdminWebApp. Each component plays a vital role in the system's overall functionality.
+Server architectures are crucial in defining the efficiency, scalability, and reliability of web applications. The architecture for the proposed system is designed to handle requests efficiently, manage data securely, and provide a flexible structure for future expansion. The system's architecture is composed of several key components: Server, API, Cache, DatabaseConnection, and ClientFormatter. Each component plays a vital role in the system's overall functionality.
 
 ### Server
 
@@ -30,10 +30,6 @@ The DatabaseConnection is responsible for all interactions with the database, en
 ### ClientFormatter
 
 The ClientFormatter is used for formatting data for different client types - web, mobile, and SMS services. This component ensures that the data is presented in the most suitable format for each client, enhancing the user experience and ensuring compatibility across different devices and platforms.
-
-### AdminWebApp
-
-The AdminWebApp is a specialized component designed for administrative tasks such as updating routes, buses, stops, and alerts. It interacts directly with the API, providing a user interface for system administrators to manage the application's data and settings.
 
 {{ image(figure_number=1,
 caption="Unified Modeling Language (UML) Diagram depicting TransitFlow back-end.",
