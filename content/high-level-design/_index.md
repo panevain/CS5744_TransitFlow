@@ -49,7 +49,7 @@ For example, the database might store the following data points:
   - Stop 1114 has an average of 15 passengers boarding
   - Stop 1114 has an average of 10 passengers exiting
   - Stop 1115 has an average of 17 passengers boarding
-  - Stop 1115 has an average of 3 passengers boarding
+  - Stop 1115 has an average of 3 passengers exiting
 - Bus 157 is a 40-foot non-articulated bus that can hold 80 passengers
 
 Without further introspection, the data is not very useful at a glance.
