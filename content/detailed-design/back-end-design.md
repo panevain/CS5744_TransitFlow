@@ -5,7 +5,7 @@ sort_by = "weight"
 weight = 2
 +++
 
-Server architectures are crucial in defining the efficiency, scalability, and reliability of web applications. The architecture for the proposed system is designed to handle requests efficiently, manage data securely, and provide a flexible structure for future expansion. The system's architecture is composed of several key components: Server, API, Cache, DatabaseConnection, and ClientFormatter. Each component plays a vital role in the system's overall functionality.
+Server architectures are crucial in defining the efficiency, scalability, and reliability of web applications. The architecture for the proposed system is designed to handle requests efficiently, manage data securely, and provide a flexible structure for future expansion. The back-end is implemented in Java due to its widespread adoption, reliability, and library support for databases and network connectivity. The system's architecture is composed of several key components: Server, API, Cache, DatabaseConnection, and ClientFormatter. Each component plays a vital role in the system's overall functionality.
 
 ### Server
 
@@ -17,11 +17,11 @@ The API serves as the gateway for external communications and is divided into mu
 
 ### Endpoint
 
-Each Endpoint (web, mobile, sms, and admin) is designed to handle specific types of requests, characterized by its path and request type (GET, POST, etc.). This design allows for a more organized and manageable way of processing requests, where each endpoint can be optimized for its specific purpose.
+Each endpoint (web, mobile, SMS, and admin) is designed to handle specific types of requests, characterized by its path and request type (GET, POST, etc.). This design allows for a more organized and manageable way of processing requests, where each endpoint can be optimized for its specific purpose.
 
 ### Cache
 
-The Cache is a critical component for improving the performance of the system. It stores frequently accessed data, reducing the load on the database and speeding up response times. The operations `addToCache` and `getFromCache` ensure that data can be stored and retrieved efficiently, providing a significant boost to the system's performance.
+The Cache is a critical component for improving the performance of the system. It stores frequently accessed data, reducing the load on the database and speeding up response times. The operations `addToCache` and `getFromCache` ensure that data can be stored and retrieved efficiently, providing a significant boost to the system's performance. The cache is implemented as a key-value (KV) store where each key is a possible user request and the value is a JSON string of the data to be returned. KV stores have excellent throughput and in this instance, no extra processing is required beyond the lookup.
 
 ### DatabaseConnection
 
