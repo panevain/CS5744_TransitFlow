@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://panevain.github.io/CS5744_TransitFlow/sitemap.xml
